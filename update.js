@@ -72,7 +72,6 @@ readExcel((err,schools) => {
 							queryProg.equalTo('name', 'K to 12 Computerisationm Programme');
 							queryProg.find().then(prog => {
 								res.program = prog[0];
-								res.municipality = undefined;
 
 								let project = new Project();
 								mod.update(project, res);
