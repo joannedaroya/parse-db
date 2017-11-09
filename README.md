@@ -10,8 +10,11 @@ Environment Setup
   - [excel](https://www.npmjs.com/package/excel): `npm install excel`
   - [node-fetch](https://www.npmjs.com/package/node-fetch): `npm install node-fetch`
 * Save the excel file inside your project folder. Reference this in the `readExcel.js` module:
-	```const file = 'excel file name';```
+	```js
+  const file = 'excel file name';
+  ```
 * Login to your [Back4App Account](https://www.back4app.com/) and go to the DevLive server to retrieve the App ID and Javascript Key to initialize Parse.
+* Follow the [instructions](https://developers.google.com/maps/documentation/javascript/get-api-key) provided by Google on how to get a Google Maps API Key.
 * Create a new file called `config.js` and insert the code and provide the following:
   ```js
   const config = {
