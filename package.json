@@ -1,0 +1,17 @@
+{
+  "name": "undp-project",
+  "version": "1.0.0",
+  "description": "undp project excel to db",
+  "main": "import.js",
+  "dependencies": {
+    "excel": "^0.1.7",
+    "node-fetch": "^1.7.3",
+    "parse": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "joannedaroya",
+  "license": "ISC"
+}
